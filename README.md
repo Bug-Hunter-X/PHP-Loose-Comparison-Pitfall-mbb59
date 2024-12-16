@@ -1,0 +1,1 @@
+This example showcases a common error in PHP stemming from the use of loose comparison (`==`) instead of strict comparison (`===`).  Loose comparison performs type juggling, potentially leading to unexpected results. The `bug.php` file demonstrates the issue, while `bugSolution.php` provides the corrected version.
